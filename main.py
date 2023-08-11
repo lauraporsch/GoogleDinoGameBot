@@ -46,7 +46,6 @@ if __name__ == "__main__":
             for y in range(785, 790):
                 if not pyautogui.pixelMatchesColor(x, y, (255, 255, 255)):
                     pyautogui.sleep(.15)
-                    print(x, y)
                     pyautogui.sleep(.1)
                     # add a small amount to original_x as obstacles move faster the longer the game goes on
                     original_x += 0.1
